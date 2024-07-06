@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: rgb(207, 37, 165);
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Adjust input text box size */
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 200%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Adjust textarea size */
+textarea {
+    width: 200%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+}

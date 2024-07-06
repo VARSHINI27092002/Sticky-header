@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Head</title>
+    <link rel="stylesheet" href="sticky.css">
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="logo" style="font-size: 50px;">Blossom World</div>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <img src="C:/Users/varsh/Desktop/New folder (5)/image.png" alt="Home Image" style="width: 1500px; height:max-content;">
+            <p>Scroll down to see the sticky navbar in action.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <img src="C:/Users/varsh/Desktop/New folder (5)/Screenshot (77).png" alt="About Image" style="width: 1500px; height:max-content;">
+            <p>About section content...</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <img src="C:/Users/varsh/Desktop/New folder (5)/image copy.png" alt="Services Image" style="width: 1500px; height:max-content;">
+            <p>Services section content...</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="image-container">
+                    <img src="C:/Users/varsh/Desktop/New folder (5)/Screenshot2.jpg" alt="Contact Image" style="width: 700px; height: auto;">
+                </div>
+                <form class="footer__form" action="https://formsubmit.co/varshvaiya27@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <p>Contact section content...</p>
+        </section>
+    </main>
+    <script src="sticky.js"></script>
+</body>
+</html>
